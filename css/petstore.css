@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #35C2BD;
+}
+header{
+    position: fixed;
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    margin-left: 25vw;
+    align-items: center;
+    border-width: 0; 
+    border-bottom: 4px solid black;
+    margin-top: 20px;
+    background-color: rgba(255, 228, 196, 0.5);
+
+}
+.firstnav{
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+}
+.logo{
+    padding-right: 40px;
+}
+.navbar a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Aldrich;
+    font-size: 18px;
+    font-weight: normal;
+}
+.navbar a:hover{
+    text-decoration: none;
+    background-color: rgba(71, 61, 185, 0.4);
+    border-radius: 4px;
+}
+.navbar a:active{
+    background-color: rgba(34, 33, 46, 0.4);
+}
+.secnav a{
+    padding-left: 20px;
+}
+.homes{
+    padding-top: 250px;
+    display: flex;
+    margin-left: 15vw;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+.rect{
+    width: 255px;
+    height: 471px;
+    background-color: #FFCF5E;
+    border-radius: 100px;
+}
+.dogimage {
+    left: 25px;
+    top: 30px;
+}
+.content{
+    margin-top: 50px;
+}
+.content h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    width: 60%;
+    padding-bottom: 30px;
+}
+.content p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 21px;
+    padding-bottom: 60px;
+}
+.inp{
+    width: 473px;
+    height: 56px;
+    border-radius: 100px;
+    border-style: none;
+    background-color: rgba(255, 255, 255,0.9);
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 25px;
+}
+.srcbtn{
+    width: 136px;
+    height: 56px;
+    border-radius: 100px;
+    border-style: none;
+    background-color: #FFCF5E;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 21px;
+}
+.headcat{
+    font-family: Inter;
+    font-size: 46px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.itemscat{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+.itemsqr{
+    width: 200px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+.itemlabel{
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+}
+.itemimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specialrect{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 510px;
+    height: 59px;
+    background-color: #FFCF5E;
+}
+.offerrect{
+    width: 259px;
+    height: 369px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.offerdetail{
+    padding-left: 20px;
+}
+.offerdetail p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.circleimg{
+    width: 111px;
+    height: 111px;
+    border-radius: 100%;
+    background-color: #FFCF5E;
+    display: flex;
+    margin-left: 30px;
+}
+.comic{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+.animage{
+    margin-top: 20px;
+    margin-left: -90px;
+    width: 88px;
+    height: 91px;
+}
+.shopbtns{
+    width: 174px;
+    background-color: #473DB9;
+    border-style: none;
+    height: 44px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 20px;
+}
+.offerscontainers{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.trending{
+    margin-bottom: 170px;
+}
+.trendheading{
+    display: flex;
+    justify-content: center;
+}
+.trendrect{
+    width: 510px;
+    height: 59px;
+    background-color: #473DB9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trendrect p{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.trenditem{
+    width: 253px;
+    height: 397px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.trendlabel img{
+    padding-left: 40px;
+}
+.trendprice{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.original{
+    color: rgba(77, 41, 41, 0.3);
+}
+.trendcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.bloghead{
+    display: flex;
+    justify-content: center;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.navigation{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 325px;
+    margin-left: 200px;
+}
+.foward{
+    margin-left: 1325px;
+}
+.blogcontainer{
+    display: flex;
+    justify-content: center;
+}
+.blogrect{
+    width: 520px;
+    height: 547px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+.blogheading{
+    font-family: Inria Sans;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.blogintro{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-left: 20pxs;
+}
+footer{
+    background-color: #01A19C;
+    height: 550px;
+}
+.footone{
+    display: flex;
+    margin-left: 150px;
+    width: 1500px;
+    height: 350px;
+    border-width: o;
+    border-bottom: 4px solid black;
+    padding-top: 100px;
+}
+.footlogo img{
+    position: absolute;
+    margin-left: 100px;
+}
+.legal{
+    margin-left: 200px;
+}
+.footerheads{
+    font-family: Inria Sans;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footercont{
+    display: grid;
+}
+.footercont p, img{
+    margin-top: 20px;
+}
+.footerimg{
+    display: grid;
+    justify-content: center;
+}
+.footertwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
